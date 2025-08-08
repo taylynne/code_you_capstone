@@ -1,4 +1,4 @@
-# Code:You Capstone Project
+# ⛅ Weather Trends over the Years
 
 I chose to look at weather data for my capstone project. I did this because our summers have become hotter, we have had more and more tornadoes in our region, and lots more extreme weather. While I know the weather and our atmosphere is changing due to pollution and other factors, I wanted to look at exactly how much things are actually changing. I constantly feel like things are so much x or y compared to when I was a kid; but I always wonder if it's just because I'm seeing more details now than I was when I was younger. So I'm curious if things are actually that much different from what I remember as a kid. I picked Lexington, KY to look at, because it's fairly central to Kentucky, it's one of the larger cities, and there's more data available.
 
@@ -44,7 +44,7 @@ I hope to look at the data and see what trends we can spot plotting the data on 
 
 If you want to rebuild the database, or choose not to download the database with this repo, please run the `data_cleaning.ipynb` file before opening `data_analysis.ipynb`
 
-## Data
+## 💧 Data
 
 I was able to collect all of the data from NOAA. There is such a wealth of data available to us from the NOAA, it was a pleasant suprise to see just how far back the data went.
 
@@ -52,7 +52,7 @@ For this project, I downloaded a few datasets. The main two datasets start from 
 
 The next datasets I collected were daily values from 2000 to now. This data comes from multiple sources, with lots of missing data. The main goal for these sets was to collect the daily information: the max, min and average. So I cleaned up the data to drop any row that did not have any information in the MAX and MIN columns, and created an average using those two columns if the column was null.
 
-- [NOAA](https://www.ncei.noaa.gov/access/search/index)
+- [NOAA](https://www.ncei.noaa.gov/access/search/index) 🌠
 
 ## Resources/Technologies Used
 
@@ -60,9 +60,9 @@ Pandas: Core technology used to handle the massive amounts of data from the csv 
 Jupyter Notebooks: One of the core technologies used; everything was written in a jupyter notebook to easily experiment with and display the process as I went through this project.
 sqlite3: Used to create a simple database using the dataframe information.
 Mathplotlib: Used to plot and create graphs with the data
-Seaborn: Used to create more complex and graphically pleasse graphs with the data
+Seaborn: Used to create more complex and graphically pleasant graphs with the data
 
-## Data Summary
+## 🔥 Data Summary
 
 I really found the data super interesting. I mostly handled the temperature data throughout the years, as it is easier to show trends if there are any. There were a few outliers in the data: two years with exceptional percipitation and a year with a signficantly lower min temp than any other year in the range.
 
