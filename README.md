@@ -8,6 +8,12 @@ I hope to look at the data and see what trends we can spot plotting the data on 
 
 1. Clone or download this repository to your local machine
 
+   Navigate to the directory you want to download the repo in, and in the CLI run:
+
+   ```bash
+   git clone https://github.com/taylynne/code_you_capstone.git
+   ```
+
 2. Create and activate a virtual environment:
 
    ```bash
@@ -53,5 +59,11 @@ The next datasets I collected were daily values from 2000 to now. This data come
 Pandas: Core technology used to handle the massive amounts of data from the csv files.
 Jupyter Notebooks: One of the core technologies used; everything was written in a jupyter notebook to easily experiment with and display the process as I went through this project.
 sqlite3: Used to create a simple database using the dataframe information.
-Mathplotlib:
-Seaborn:
+Mathplotlib: Used to plot and create graphs with the data
+Seaborn: Used to create more complex and graphically pleasse graphs with the data
+
+## Data Summary
+
+I really found the data super interesting. I mostly handled the temperature data throughout the years, as it is easier to show trends if there are any. There were a few outliers in the data: two years with exceptional percipitation and a year with a signficantly lower min temp than any other year in the range.
+
+Outside of these outliers, I found that the data does show a slight trend upwards throughout the years. Just with the first graph, using data from 1948 to 2024, you can really see the average yearly temp going up by a few degrees.
