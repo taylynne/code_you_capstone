@@ -1,26 +1,11 @@
 # Code:You Capstone Project
 
-For my capstone project, I would like to look at book genre data and sales.  My backup depending on how finding data goes will be for rabies data.  I worked animal control, and rabies is a big part of community safety with animals.  
-
-My goals:
-- [ ] Collect Data pertaining to books, preferring data from within the past few years
-- [ ] Refine the data, and narrow the scope down.
-- [ ] Compare genres & sub-genres as well as self published book
-- [ ] See what genres and sub-genres have become popular more recently 
-	- are they 'new' genres or just recently popular? 
-	- increase in number of books written? 
-	- increase in number of reviews?
-- [ ] 
-- [ ] Create graphs & a tableau dashboard that tells a story of what I find in the data
+I chose to look at weather data for my capstone project. I did this because our summers have become hotter, we have had more and more tornadoes in our region, and lots more extreme weather. While I know the weather and our atmosphere is changing due to pollution and other factors, I wanted to look at exactly how much things are actually changing. I constantly feel like things are so much x or y compared to when I was a kid; but I always wonder if it's just because I'm seeing more details now than I was when I was younger. So I'm curious if things are actually that much different from what I remember as a kid. I picked Lexington, KY to look at, because it's fairly central to Kentucky, it's one of the larger cities, and there's more data available. If I progress pretty well with the Lexington data, I may pull data from Louisville and/or Danville as well. But I do not want the data to become too overwhelming or too broad. For now, I'll be sticking with Lexington.
 
 ## Data
 
-I have found some datasets that already have a lot of information.  However, there's some data I would like that is not in the sets.  I may see about collecting the data myself after I narrow down the data to a smaller set.  There are some APIs that allow me to pull book specific data, so I may go that route in order to find out: publisher information, if publishers have changed, and potentially consider kindle unlimited as a factor for popularity of books.
+I collected all of my data from NOAA; I refined my initial search for data for a smaller range of data from 2000 - 2025. I would like to use this dataset to look at more recent current trends, and maybe try to hypothsis how the weather for the rest of the year may be. I then searched for more historical data: anything prior to 2000. There is a huge range of data here. I would like to perhaps isolate certain years to just give a basic trend of weather, and maybe consider the coldest/hottest day (and how the rest of the year looks compared to other years?)
 
+- [NOAA](https://www.ncei.noaa.gov/access/search/index)
 
 ## Resources
-
-Where I got my datasets:
-
- - [Amazon Kindle Books Dataset 2023 (Kaggle)](https://www.kaggle.com/datasets/asaniczka/amazon-kindle-books-dataset-2023-130k-books)
- - [Amazon Books Dataset: Genre, Sub-genre, and Books](https://www.kaggle.com/datasets/chhavidhankhar11/amazon-books-dataset/data)
